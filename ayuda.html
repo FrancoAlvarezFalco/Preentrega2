@@ -72,6 +72,59 @@
     <h1 class="TítuloA">Bienvenidos a la ayuda</h1>
   </header>
 
+  <body class="text-center">
+    <form>
+      <label for="Nombre y apellido">Nombre y Apellido</label>
+      <input
+        type="text"
+        name="nombre_apellido"
+        placeholder="nombre y apellido"
+      />
+      <label for="Email">Email</label>
+      <input type="text" name="Email" placeholder="name@example.com" />
+      <div>
+        <h2>Antes de Todo</h2>
+        <ol>
+          ¿Acepta terminos y condiciones? (LISTA GENÉRICA DE GOOGLE)
+        </ol>
+        <li>
+          De acuerdo a las especificaciones técnicas indicadas para cada
+          producto.
+        </li>
+        <li>
+          En condiciones ambientales acorde con las especificaciones indicadas
+          por el fabricante.
+        </li>
+        <li>
+          En uso específico para la función con que fue diseñado de fábrica.
+        </li>
+        <li>
+          En condiciones de operación eléctricas acorde con las especificaciones
+          y tolerancias indicadas.
+        </li>
+      </div>
+      <input type="checkbox" name="acepta" value="1" />
+      <h1>Sexo</h1>
+      <div>Hombre</div>
+      <input type="radio" name="sexo" value="Hombre" />
+      <div>Mujer</div>
+      <input type="radio" name="sexo" value="Mujer" />
+      <div>Prefiero no aclarar</div>
+      <input type="radio" name="sexo" value="Prefiero no aclarar" />
+
+      <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label">Escribenos tu Consulta.</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+      </div>
+     
+      </div>
+    </form>
+    <h4>
+      Pronto enviaremos una respuesta a tu "Email" Esperamos haberte ayudado.
+    </h4>
+    <button type="button" class="btn btn-success rounded-pill">Hecho</button>
+    <button type="button" class="btn btn-light rounded-pill">Reiniciar</button>
+  </body>
   <footer class="foot">
     <p>Buscanos en nuestras redes</p>
     <a href="https://twitter.com/" class="icons"
